@@ -44,7 +44,7 @@ Telegram-бот для уведомлений о встречах из Google Ca
 #### Клонирование репозитория
 
 ``bash
-git clone https://github.com/yourusername/calendar-telegram-bot.git
+git clone https://github.com/Vetev701/telegram-calendar-bot.git
 cd calendar-telegram-bot
 
 Установка зависимостей
