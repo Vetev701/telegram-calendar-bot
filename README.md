@@ -47,10 +47,10 @@ Telegram-бот для уведомлений о встречах из Google Ca
 git clone https://github.com/Vetev701/telegram-calendar-bot.git
 cd calendar-telegram-bot
 
-# Установка зависимостей
+### Установка зависимостей
 pip install -r requirements.txt
 
-Настройка окружения
+### Настройка окружения
 Создайте файл .env в корне проекта:
 
 Telegram Bot Token (полученный от @BotFather)
