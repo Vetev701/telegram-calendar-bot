@@ -67,17 +67,17 @@ GOOGLE_REDIRECT_URI=http://localhost:8080
 python main.py
 
 ### Процесс авторизации
-1)Отправьте боту команду /start
+1) Отправьте боту команду /start
 
-2)Выберите "🔑 Авторизоваться через Google"
+2) Выберите "🔑 Авторизоваться через Google"
 
-3)Перейдите по полученной ссылке
+3) Перейдите по полученной ссылке
 
-4)Войдите в свой Google аккаунт
+4) Войдите в свой Google аккаунт
 
-5)Разрешите доступ к календарю
+5) Разрешите доступ к календарю
 
-6)Дождитесь автоматического перенаправления
+6) Дождитесь автоматического перенаправления
 
 ### После успешной авторизации бот покажет:
 
@@ -105,22 +105,37 @@ python main.py
 ## Используемые технологии
 
 Компонент	Технология
+
 Язык программирования	Python 3.10+
+
 Telegram API	python-telegram-bot 20.7
+
 Google API	google-api-python-client
+
 OAuth 2.0	google-auth, google-auth-oauthlib
+
 Хранение данных	SQLite
+
 Планировщик	JobQueue (встроенный)
+
 Асинхронность	asyncio
+
 Переменные окружения	python-dotenv
 
 ### Зависимости
 
 python-telegram-bot==20.7
+
 google-api-python-client==2.108.0
+
 google-auth==2.25.2
+
 google-auth-oauthlib==1.1.0
+
 google-auth-httplib2==0.1.1
+
 requests==2.31.0
+
 python-dotenv==1.0.0
+
 pytz==2023.3
