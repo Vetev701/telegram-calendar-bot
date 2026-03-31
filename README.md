@@ -53,14 +53,14 @@ pip install -r requirements.txt
 ### Настройка окружения
 Создайте файл .env в корне проекта:
 
-Telegram Bot Token (полученный от @BotFather)
+### Telegram Bot Token (полученный от @BotFather)
 TELEGRAM_TOKEN=8207288036:AAGCcxA2g34Nm_38f6NbzV7_4rMMt62Etwo
 
-Google OAuth 2.0 credentials
+### Google OAuth 2.0 credentials
 GOOGLE_CLIENT_ID=1085665057695-xxx.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=GOCSPX-xxx
 
-Redirect URI (не меняйте, если не меняли в консоли)
+### Redirect URI (не меняйте, если не меняли в консоли)
 GOOGLE_REDIRECT_URI=http://localhost:8080
 
 ### Запуск бота
